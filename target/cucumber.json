@@ -1,0 +1,1024 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Loging into the application",
+        "description": "",
+        "id": "wall-stickers;loging-into-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5078806900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Asian Paints application",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Asian_Paints_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148586100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on profile button",
+            "match": {
+              "location": "Shop_catalouge.user_clicks_on_profile_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32907845800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks and enters mobile and clicks on submit",
+            "match": {
+              "location": "Shop_catalouge.user_clicks_and_enters_mobile_and_clicks_on_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181213400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on and enters otp and clicks on submit",
+            "match": {
+              "location": "Shop_catalouge.user_clicks_on_and_enters_otp_and_clicks_on_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3316262100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clicks on Myprofile",
+            "match": {
+              "location": "Shop_catalouge.clicks_on_Myprofile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268203800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User able to see the profile",
+            "match": {
+              "location": "Shop_catalouge.able_to_signout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@Login_Logout"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Displaying Shop options",
+        "description": "",
+        "id": "wall-stickers;displaying-shop-options",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4905499600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on the Asian Paints application",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Asian_Paints_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142120100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user hovers  mouse on shop",
+            "match": {
+              "location": "Shop_catalouge.user_hovers_mouse_on_shop()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2737390500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on wallstickers",
+            "match": {
+              "location": "Shop_catalouge.click_on_wallstickers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16189993300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Sould able to navigate and display wall stickers name",
+            "match": {
+              "location": "Shop_catalouge.sould_able_to_navigate_and_display_wall_stickers_name()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@Shop_options"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Exploring Wall Sticker page",
+        "description": "",
+        "id": "wall-stickers;exploring-wall-sticker-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4804019500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the Asian Paints application",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Asian_Paints_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140026000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user hovers  mouse on shop",
+            "match": {
+              "location": "Shop_catalouge.user_hovers_mouse_on_shop()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21842576400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on wallstickers",
+            "match": {
+              "location": "Shop_catalouge.click_on_wallstickers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2289650200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clicks on loadmore",
+            "match": {
+              "location": "Shop_catalouge.clicks_on_loadmore()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16088810600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Displays all the stickers in that page",
+            "match": {
+              "location": "Shop_catalouge.displays_all_the_stickers_in_that_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@Wall_Sticker_Page"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Apply the filter",
+        "description": "",
+        "id": "wall-stickers;apply-the-filter",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4608714900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is on the Asian Paints application",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Asian_Paints_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134591100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user hovers  mouse on shop",
+            "match": {
+              "location": "Shop_catalouge.user_hovers_mouse_on_shop()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22224270900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click on wallstickers",
+            "match": {
+              "location": "Shop_catalouge.click_on_wallstickers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1922683800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "clicks on filters and selects",
+            "match": {
+              "location": "Shop_catalouge.clicks_on_filters_and_selects()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3562087300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "clicks on sortby and select one",
+            "match": {
+              "location": "Shop_catalouge.clicks_on_sortby_and_select_one()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16084422800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User able to see the filtered products",
+            "match": {
+              "location": "Shop_catalouge.user_able_to_see_the_filtered_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@Apply_Filters"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Buy now unsuccessful",
+        "description": "",
+        "id": "wall-stickers;buy-now-unsuccessful",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5314427000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on the Wall Stickers page",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Wall_Stickers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206817200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User click on wall sticker",
+            "match": {
+              "location": "Shop_catalouge.user_click_on_wall_sticker()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2155098400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enter the pincode",
+            "match": {
+              "location": "Shop_catalouge.user_enter_the_pincode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86508800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click on buy now button",
+            "match": {
+              "location": "Shop_catalouge.click_on_buy_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 373979700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Error message is displayed",
+            "match": {
+              "location": "Shop_catalouge.error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@Invalid_Pincode"
+          }
+        ]
+      },
+      {
+        "line": 55,
+        "name": "Buy the product",
+        "description": "",
+        "id": "wall-stickers;buy-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8288214400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User is on the Wall Stickers page",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Wall_Stickers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188157000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User click on wall sticker",
+            "match": {
+              "location": "Shop_catalouge.user_click_on_wall_sticker()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2139415700,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User enters the pincode 534305",
+            "match": {
+              "arguments": [
+                {
+                  "val": "534305",
+                  "offset": 24
+                }
+              ],
+              "location": "Shop_catalouge.user_enter_the_pincode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97435700,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Click on buy now button",
+            "match": {
+              "location": "Shop_catalouge.click_on_buy_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289603300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User able to see the payment page",
+            "match": {
+              "location": "Shop_catalouge.user_able_to_see_the_payment_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@Buy_Product"
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "Buy the product",
+        "description": "",
+        "id": "wall-stickers;buy-the-product;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5049564900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User is on the Wall Stickers page",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Wall_Stickers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 196334300,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User click on wall sticker",
+            "match": {
+              "location": "Shop_catalouge.user_click_on_wall_sticker()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2134272100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User enters the pincode 534306",
+            "match": {
+              "arguments": [
+                {
+                  "val": "534306",
+                  "offset": 24
+                }
+              ],
+              "location": "Shop_catalouge.user_enter_the_pincode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88642200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Click on buy now button",
+            "match": {
+              "location": "Shop_catalouge.click_on_buy_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285213200,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User able to see the payment page",
+            "match": {
+              "location": "Shop_catalouge.user_able_to_see_the_payment_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@Buy_Product"
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "Add product to wishlist",
+        "description": "",
+        "id": "wall-stickers;add-product-to-wishlist",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5080847300,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User is on the Wall Stickers page",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Wall_Stickers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 234184000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User click on wall sticker",
+            "match": {
+              "location": "Shop_catalouge.user_click_on_wall_sticker()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2257782100,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User click on wishlist button",
+            "match": {
+              "location": "Shop_catalouge.user_click_on_wishlist_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1022558300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Click on WishList Icon on the top",
+            "match": {
+              "location": "Shop_catalouge.click_on_WishList_Icon_on_the_top()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279730500,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User able to see the product is added to the wishlist",
+            "match": {
+              "location": "Shop_catalouge.user_able_to_see_the_product_is_added_to_the_wishlist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@WishList"
+          }
+        ]
+      },
+      {
+        "line": 75,
+        "name": "Get the latest news",
+        "description": "",
+        "id": "wall-stickers;get-the-latest-news;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4587347000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User is on the Asian Paints application",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Asian_Paints_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119631900,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User enter mail in textbox anjith12@mail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anjith12@mail.com",
+                  "offset": 27
+                }
+              ],
+              "location": "Shop_catalouge.user_enter_mail_in_textbox_anjith_mail_com(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146253500,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User click on Subscribe button",
+            "match": {
+              "location": "Shop_catalouge.user_click_on_Subscribe_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19123423800,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Successful Message is shown",
+            "match": {
+              "location": "Shop_catalouge.error_Message_is_shown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@getLatestNews"
+          }
+        ]
+      },
+      {
+        "line": 76,
+        "name": "Get the latest news",
+        "description": "",
+        "id": "wall-stickers;get-the-latest-news;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4398903900,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User is on the Asian Paints application",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Asian_Paints_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119334000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User enter mail in textbox anjith3455@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anjith3455@gmail.com",
+                  "offset": 27
+                }
+              ],
+              "location": "Shop_catalouge.user_enter_mail_in_textbox_anjith_mail_com(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144468200,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User click on Subscribe button",
+            "match": {
+              "location": "Shop_catalouge.user_click_on_Subscribe_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19108203800,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Successful Message is shown",
+            "match": {
+              "location": "Shop_catalouge.error_Message_is_shown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@getLatestNews"
+          }
+        ]
+      },
+      {
+        "line": 79,
+        "name": "clicking on shop catlouge",
+        "description": "",
+        "id": "wall-stickers;clicking-on-shop-catlouge",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4490149700,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "User is on the Asian Paints application",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Asian_Paints_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1709164200,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "User clciks on shop option",
+            "match": {
+              "location": "Shop_catalouge.user_clciks_on_shop_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24389926200,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "User clciks on EXPLORE NOW and displays Mechanized Tools \u0026 Spares",
+            "match": {
+              "location": "Shop_catalouge.user_clciks_on_EXPLORE_NOW_and_displays_Mechanized_Tools_Spares()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137249500,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "user clicks on Terms \u0026 Conditions",
+            "match": {
+              "location": "Shop_catalouge.user_clicks_on_Terms_Conditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16092878500,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "displays terms and conditions",
+            "match": {
+              "location": "Shop_catalouge.displays_terms_and_conditions()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@Shop_clciking"
+          }
+        ]
+      },
+      {
+        "line": 88,
+        "name": "Loging out",
+        "description": "",
+        "id": "wall-stickers;loging-out",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4542406700,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "User is on the Asian Paints application",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Asian_Paints_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94302200,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "User clicks on profile button",
+            "match": {
+              "location": "Shop_catalouge.user_clicks_on_profile_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101821600,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "clicks on signout",
+            "match": {
+              "location": "Shop_catalouge.licks_on_signout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247969900,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "able to sign out",
+            "match": {
+              "location": "Shop_catalouge.able_to_sign_out()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@Logout"
+          }
+        ]
+      },
+      {
+        "line": 96,
+        "name": "Scrolling page",
+        "description": "",
+        "id": "wall-stickers;scrolling-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4391373100,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "User is on the Asian Paints application",
+            "match": {
+              "location": "Shop_catalouge.user_is_on_the_Asian_Paints_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1550130900,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "User clciks on shop option",
+            "match": {
+              "location": "Shop_catalouge.user_clciks_on_shop_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3274995200,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "able to go to previous page,nexr page,refresh",
+            "match": {
+              "location": "Shop_catalouge.able_to_go_to_previous_page_nexr_page_refresh()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110600,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "able to show user functions are working",
+            "match": {
+              "location": "Shop_catalouge.able_to_show_user_functions_are_working()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wall_Stickers"
+          },
+          {
+            "name": "@Chrome_options"
+          }
+        ]
+      }
+    ],
+    "name": "Wall Stickers",
+    "description": "",
+    "id": "wall-stickers",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Shop_Wallstickers.feature",
+    "tags": [
+      {
+        "name": "@Wall_Stickers",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
